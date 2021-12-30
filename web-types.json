@@ -1,0 +1,2012 @@
+{
+  "framework": "vue",
+  "name": "tjemail",
+  "version": "1.2.240",
+  "contributions": {
+    "html": {
+      "description-markup": "markdown",
+      "types-syntax": "typescript",
+      "tags": [
+        {
+          "name": "ConditionalComment",
+          "description": "",
+          "attributes": [
+            {
+              "name": "onlyOutlook",
+              "required": false,
+              "value": {
+                "kind": "expression",
+                "type": "boolean"
+              },
+              "default": "false"
+            }
+          ],
+          "slots": [
+            {
+              "name": "default"
+            }
+          ],
+          "source": {
+            "module": "./src/components/html/ConditionalComment.vue",
+            "symbol": "default"
+          }
+        },
+        {
+          "name": "MAccordion",
+          "description": "",
+          "attributes": [
+            {
+              "name": "animate",
+              "value": {
+                "kind": "expression",
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "expandSingleSection",
+              "value": {
+                "kind": "expression",
+                "type": "boolean"
+              }
+            }
+          ],
+          "slots": [
+            {
+              "name": "default"
+            }
+          ],
+          "source": {
+            "module": "./src/components/amp/MAccordion.vue",
+            "symbol": "default"
+          }
+        },
+        {
+          "name": "MAccordion",
+          "description": "",
+          "slots": [
+            {
+              "name": "default"
+            }
+          ],
+          "source": {
+            "module": "./src/components/html/MAccordion.vue",
+            "symbol": "default"
+          }
+        },
+        {
+          "name": "MAccordionBody",
+          "description": "",
+          "slots": [
+            {
+              "name": "default"
+            }
+          ],
+          "source": {
+            "module": "./src/components/amp/MAccordionBody.vue",
+            "symbol": "default"
+          }
+        },
+        {
+          "name": "MAccordionBody",
+          "description": "",
+          "slots": [
+            {
+              "name": "default"
+            }
+          ],
+          "source": {
+            "module": "./src/components/html/MAccordionBody.vue",
+            "symbol": "default"
+          }
+        },
+        {
+          "name": "MAccordionSection",
+          "description": "",
+          "attributes": [
+            {
+              "name": "expanded",
+              "value": {
+                "kind": "expression",
+                "type": "boolean"
+              }
+            }
+          ],
+          "slots": [
+            {
+              "name": "default"
+            }
+          ],
+          "source": {
+            "module": "./src/components/amp/MAccordionSection.vue",
+            "symbol": "default"
+          }
+        },
+        {
+          "name": "MAccordionSection",
+          "description": "",
+          "slots": [
+            {
+              "name": "default"
+            }
+          ],
+          "source": {
+            "module": "./src/components/html/MAccordionSection.vue",
+            "symbol": "default"
+          }
+        },
+        {
+          "name": "MAccordionTitle",
+          "description": "",
+          "slots": [
+            {
+              "name": "default"
+            }
+          ],
+          "source": {
+            "module": "./src/components/amp/MAccordionTitle.vue",
+            "symbol": "default"
+          }
+        },
+        {
+          "name": "MAccordionTitle",
+          "description": "",
+          "slots": [
+            {
+              "name": "default"
+            }
+          ],
+          "source": {
+            "module": "./src/components/html/MAccordionTitle.vue",
+            "symbol": "default"
+          }
+        },
+        {
+          "name": "MBody",
+          "description": "",
+          "attributes": [
+            {
+              "name": "fontFamily",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              },
+              "default": "'Verdana, Arial, Helvetica, sans-serif'"
+            },
+            {
+              "name": "fontSize",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              },
+              "default": "'14px'"
+            },
+            {
+              "name": "lineHeight",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              },
+              "default": "'normal'"
+            },
+            {
+              "name": "color",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              },
+              "default": "'#000000'"
+            },
+            {
+              "name": "bgcolor",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              },
+              "default": "'#ffffff'"
+            }
+          ],
+          "slots": [
+            {
+              "name": "default"
+            }
+          ],
+          "source": {
+            "module": "./src/components/amp/MBody.vue",
+            "symbol": "default"
+          }
+        },
+        {
+          "name": "MBody",
+          "description": "",
+          "attributes": [
+            {
+              "name": "fontFamily",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              },
+              "default": "'Verdana, Arial, Helvetica, sans-serif'"
+            },
+            {
+              "name": "fontSize",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              },
+              "default": "'14px'"
+            },
+            {
+              "name": "lineHeight",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              },
+              "default": "'normal'"
+            },
+            {
+              "name": "color",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              },
+              "default": "'#000000'"
+            },
+            {
+              "name": "bgcolor",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              },
+              "default": "'#ffffff'"
+            }
+          ],
+          "slots": [
+            {
+              "name": "default"
+            }
+          ],
+          "source": {
+            "module": "./src/components/html/MBody.vue",
+            "symbol": "default"
+          }
+        },
+        {
+          "name": "MBox",
+          "description": "",
+          "attributes": [
+            {
+              "name": "align",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              },
+              "default": "'center'"
+            },
+            {
+              "name": "valign",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              },
+              "default": "'top'"
+            },
+            {
+              "name": "width",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              },
+              "default": "'300'"
+            }
+          ],
+          "slots": [
+            {
+              "name": "default"
+            }
+          ],
+          "source": {
+            "module": "./src/components/amp/MBox.vue",
+            "symbol": "default"
+          }
+        },
+        {
+          "name": "MBox",
+          "description": "",
+          "attributes": [
+            {
+              "name": "align",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              },
+              "default": "'center'"
+            },
+            {
+              "name": "valign",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              },
+              "default": "'top'"
+            },
+            {
+              "name": "width",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              },
+              "default": "'300'"
+            }
+          ],
+          "slots": [
+            {
+              "name": "default"
+            }
+          ],
+          "source": {
+            "module": "./src/components/html/MBox.vue",
+            "symbol": "default"
+          }
+        },
+        {
+          "name": "MBoxes",
+          "description": "",
+          "attributes": [
+            {
+              "name": "align",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              },
+              "default": "'center'"
+            },
+            {
+              "name": "valign",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              },
+              "default": "'top'"
+            },
+            {
+              "name": "inverted",
+              "value": {
+                "kind": "expression",
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "direction",
+              "value": {
+                "kind": "expression",
+                "type": "string|boolean"
+              },
+              "default": "false"
+            }
+          ],
+          "slots": [
+            {
+              "name": "default"
+            }
+          ],
+          "source": {
+            "module": "./src/components/amp/MBoxes.vue",
+            "symbol": "default"
+          }
+        },
+        {
+          "name": "MBoxes",
+          "description": "",
+          "attributes": [
+            {
+              "name": "align",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              },
+              "default": "'center'"
+            },
+            {
+              "name": "valign",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              },
+              "default": "'top'"
+            },
+            {
+              "name": "inverted",
+              "value": {
+                "kind": "expression",
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "direction",
+              "value": {
+                "kind": "expression",
+                "type": "string|boolean"
+              },
+              "default": "false"
+            }
+          ],
+          "slots": [
+            {
+              "name": "default"
+            }
+          ],
+          "source": {
+            "module": "./src/components/html/MBoxes.vue",
+            "symbol": "default"
+          }
+        },
+        {
+          "name": "MButton",
+          "description": "",
+          "attributes": [
+            {
+              "name": "fontFamily",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              },
+              "default": "''"
+            },
+            {
+              "name": "fontSize",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              },
+              "default": "''"
+            },
+            {
+              "name": "lineHeight",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              },
+              "default": "''"
+            },
+            {
+              "name": "color",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              },
+              "default": "'#ffffff'"
+            },
+            {
+              "name": "bold",
+              "value": {
+                "kind": "expression",
+                "type": "boolean"
+              },
+              "default": "false"
+            },
+            {
+              "name": "bgcolor",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              }
+            },
+            {
+              "name": "background",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              },
+              "default": "''"
+            },
+            {
+              "name": "borderRadius",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              }
+            },
+            {
+              "name": "borderColor",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              }
+            },
+            {
+              "name": "href",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              },
+              "default": "'#'"
+            },
+            {
+              "name": "height",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              },
+              "default": "'58px'"
+            },
+            {
+              "name": "width",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              },
+              "default": "'100%'"
+            },
+            {
+              "name": "name",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              }
+            },
+            {
+              "name": "value",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              }
+            }
+          ],
+          "slots": [
+            {
+              "name": "default"
+            }
+          ],
+          "source": {
+            "module": "./src/components/amp/MButton.vue",
+            "symbol": "default"
+          }
+        },
+        {
+          "name": "MButton",
+          "description": "",
+          "attributes": [
+            {
+              "name": "fontFamily",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              },
+              "default": "''"
+            },
+            {
+              "name": "fontSize",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              },
+              "default": "''"
+            },
+            {
+              "name": "lineHeight",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              },
+              "default": "''"
+            },
+            {
+              "name": "color",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              },
+              "default": "'#ffffff'"
+            },
+            {
+              "name": "bold",
+              "value": {
+                "kind": "expression",
+                "type": "boolean"
+              },
+              "default": "false"
+            },
+            {
+              "name": "bgcolor",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              }
+            },
+            {
+              "name": "background",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              },
+              "default": "''"
+            },
+            {
+              "name": "borderRadius",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              }
+            },
+            {
+              "name": "borderColor",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              }
+            },
+            {
+              "name": "href",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              },
+              "default": "'#'"
+            },
+            {
+              "name": "height",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              },
+              "default": "'58px'"
+            },
+            {
+              "name": "width",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              },
+              "default": "'100%'"
+            }
+          ],
+          "slots": [
+            {
+              "name": "default"
+            }
+          ],
+          "source": {
+            "module": "./src/components/html/MButton.vue",
+            "symbol": "default"
+          }
+        },
+        {
+          "name": "MCarousel",
+          "description": "",
+          "attributes": [
+            {
+              "name": "width",
+              "value": {
+                "kind": "expression",
+                "type": "string|number"
+              },
+              "default": "'600'"
+            },
+            {
+              "name": "height",
+              "value": {
+                "kind": "expression",
+                "type": "string|number"
+              },
+              "default": "'300'"
+            },
+            {
+              "name": "layout",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              },
+              "default": "'responsive'"
+            },
+            {
+              "name": "type",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              },
+              "default": "'slides'"
+            },
+            {
+              "name": "loop",
+              "value": {
+                "kind": "expression",
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "autoplay",
+              "value": {
+                "kind": "expression",
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "delay",
+              "value": {
+                "kind": "expression",
+                "type": "number"
+              }
+            }
+          ],
+          "slots": [
+            {
+              "name": "default"
+            }
+          ],
+          "source": {
+            "module": "./src/components/amp/MCarousel.vue",
+            "symbol": "default"
+          }
+        },
+        {
+          "name": "MCarousel",
+          "description": "",
+          "slots": [
+            {
+              "name": "default"
+            }
+          ],
+          "source": {
+            "module": "./src/components/html/MCarousel.vue",
+            "symbol": "default"
+          }
+        },
+        {
+          "name": "MColumn",
+          "description": "",
+          "attributes": [
+            {
+              "name": "align",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              },
+              "default": "'center'"
+            },
+            {
+              "name": "valign",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              },
+              "default": "'top'"
+            },
+            {
+              "name": "bgcolor",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              }
+            },
+            {
+              "name": "width",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              }
+            },
+            {
+              "name": "height",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              }
+            },
+            {
+              "name": "borderRadius",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              }
+            },
+            {
+              "name": "borderLeft",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              }
+            },
+            {
+              "name": "borderRight",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              }
+            },
+            {
+              "name": "borderTop",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              }
+            },
+            {
+              "name": "borderBottom",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              }
+            },
+            {
+              "name": "border",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              }
+            },
+            {
+              "name": "padding",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              }
+            }
+          ],
+          "slots": [
+            {
+              "name": "default"
+            }
+          ],
+          "source": {
+            "module": "./src/components/amp/MColumn.vue",
+            "symbol": "default"
+          }
+        },
+        {
+          "name": "MColumn",
+          "description": "",
+          "attributes": [
+            {
+              "name": "align",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              },
+              "default": "'center'"
+            },
+            {
+              "name": "valign",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              },
+              "default": "'top'"
+            },
+            {
+              "name": "bgcolor",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              }
+            },
+            {
+              "name": "width",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              }
+            },
+            {
+              "name": "height",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              }
+            },
+            {
+              "name": "borderRadius",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              }
+            },
+            {
+              "name": "borderLeft",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              }
+            },
+            {
+              "name": "borderRight",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              }
+            },
+            {
+              "name": "borderTop",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              }
+            },
+            {
+              "name": "borderBottom",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              }
+            },
+            {
+              "name": "border",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              }
+            },
+            {
+              "name": "padding",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              }
+            }
+          ],
+          "slots": [
+            {
+              "name": "default"
+            }
+          ],
+          "source": {
+            "module": "./src/components/html/MColumn.vue",
+            "symbol": "default"
+          }
+        },
+        {
+          "name": "MForm",
+          "description": "",
+          "attributes": [
+            {
+              "name": "action",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              },
+              "default": "'https://amp4email.ru/amp/post/120?key=817b5e2c9131f7e4b164ab55f86bd883&format=json'"
+            },
+            {
+              "name": "on",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              },
+              "default": "''"
+            }
+          ],
+          "slots": [
+            {
+              "name": "default"
+            }
+          ],
+          "source": {
+            "module": "./src/components/amp/MForm.vue",
+            "symbol": "default"
+          }
+        },
+        {
+          "name": "MForm",
+          "description": "",
+          "source": {
+            "module": "./src/components/html/MForm.vue",
+            "symbol": "default"
+          }
+        },
+        {
+          "name": "MFormError",
+          "description": "",
+          "slots": [
+            {
+              "name": "default"
+            }
+          ],
+          "source": {
+            "module": "./src/components/amp/MFormError.vue",
+            "symbol": "default"
+          }
+        },
+        {
+          "name": "MFormSuccess",
+          "description": "",
+          "slots": [
+            {
+              "name": "default"
+            }
+          ],
+          "source": {
+            "module": "./src/components/amp/MFormSuccess.vue",
+            "symbol": "default"
+          }
+        },
+        {
+          "name": "MHead",
+          "description": "",
+          "attributes": [
+            {
+              "name": "preheader",
+              "required": false,
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              }
+            },
+            {
+              "name": "shortPreheader",
+              "value": {
+                "kind": "expression",
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "title",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              },
+              "default": "' - '"
+            }
+          ],
+          "slots": [
+            {
+              "name": "default"
+            }
+          ],
+          "source": {
+            "module": "./src/components/MHead.vue",
+            "symbol": "default"
+          }
+        },
+        {
+          "name": "MHead",
+          "description": "",
+          "attributes": [
+            {
+              "name": "preheader",
+              "required": false,
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              }
+            },
+            {
+              "name": "shortPreheader",
+              "value": {
+                "kind": "expression",
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "title",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              },
+              "default": "' - '"
+            }
+          ],
+          "source": {
+            "module": "./src/components/amp/MHead.vue",
+            "symbol": "default"
+          }
+        },
+        {
+          "name": "MImg",
+          "description": "",
+          "attributes": [
+            {
+              "name": "fontFamily",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              },
+              "default": "''"
+            },
+            {
+              "name": "fontSize",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              },
+              "default": "''"
+            },
+            {
+              "name": "lineHeight",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              },
+              "default": "''"
+            },
+            {
+              "name": "color",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              },
+              "default": "''"
+            },
+            {
+              "name": "href",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              },
+              "default": "''"
+            },
+            {
+              "name": "src",
+              "required": true,
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              }
+            },
+            {
+              "name": "inline",
+              "value": {
+                "kind": "expression",
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "width",
+              "required": true,
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              }
+            },
+            {
+              "name": "height",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              }
+            },
+            {
+              "name": "borderRadius",
+              "value": {
+                "kind": "expression",
+                "type": "any"
+              }
+            },
+            {
+              "name": "alt",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              },
+              "default": "''"
+            }
+          ],
+          "source": {
+            "module": "./src/components/amp/MImg.vue",
+            "symbol": "default"
+          }
+        },
+        {
+          "name": "MImg",
+          "description": "",
+          "attributes": [
+            {
+              "name": "fontFamily",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              },
+              "default": "''"
+            },
+            {
+              "name": "fontSize",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              },
+              "default": "''"
+            },
+            {
+              "name": "lineHeight",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              },
+              "default": "''"
+            },
+            {
+              "name": "color",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              },
+              "default": "''"
+            },
+            {
+              "name": "href",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              },
+              "default": "''"
+            },
+            {
+              "name": "src",
+              "required": true,
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              }
+            },
+            {
+              "name": "inline",
+              "value": {
+                "kind": "expression",
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "width",
+              "required": true,
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              }
+            },
+            {
+              "name": "height",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              }
+            },
+            {
+              "name": "borderRadius",
+              "value": {
+                "kind": "expression",
+                "type": "any"
+              }
+            },
+            {
+              "name": "alt",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              },
+              "default": "''"
+            }
+          ],
+          "source": {
+            "module": "./src/components/html/MImg.vue",
+            "symbol": "default"
+          }
+        },
+        {
+          "name": "MList",
+          "description": "",
+          "attributes": [
+            {
+              "name": "src",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              },
+              "default": "''"
+            },
+            {
+              "name": "maxItems",
+              "value": {
+                "kind": "expression",
+                "type": "string|boolean"
+              },
+              "default": "false"
+            }
+          ],
+          "slots": [
+            {
+              "name": "default"
+            }
+          ],
+          "source": {
+            "module": "./src/components/amp/MList.vue",
+            "symbol": "default"
+          }
+        },
+        {
+          "name": "MList",
+          "description": "",
+          "attributes": [
+            {
+              "name": "src",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              },
+              "default": "''"
+            },
+            {
+              "name": "maxItems",
+              "value": {
+                "kind": "expression",
+                "type": "string|boolean"
+              },
+              "default": "false"
+            }
+          ],
+          "slots": [
+            {
+              "name": "default"
+            }
+          ],
+          "source": {
+            "module": "./src/components/html/MList.vue",
+            "symbol": "default"
+          }
+        },
+        {
+          "name": "MPadding",
+          "description": "",
+          "attributes": [
+            {
+              "name": "size",
+              "value": {
+                "kind": "expression",
+                "type": "string|number"
+              },
+              "default": "10"
+            }
+          ],
+          "source": {
+            "module": "./src/components/amp/MPadding.vue",
+            "symbol": "default"
+          }
+        },
+        {
+          "name": "MPadding",
+          "description": "",
+          "attributes": [
+            {
+              "name": "size",
+              "value": {
+                "kind": "expression",
+                "type": "string|number"
+              },
+              "default": "10"
+            }
+          ],
+          "source": {
+            "module": "./src/components/html/MPadding.vue",
+            "symbol": "default"
+          }
+        },
+        {
+          "name": "MRow",
+          "description": "",
+          "attributes": [
+            {
+              "name": "width",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              }
+            }
+          ],
+          "slots": [
+            {
+              "name": "default"
+            }
+          ],
+          "source": {
+            "module": "./src/components/amp/MRow.vue",
+            "symbol": "default"
+          }
+        },
+        {
+          "name": "MRow",
+          "description": "",
+          "attributes": [
+            {
+              "name": "width",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              }
+            }
+          ],
+          "slots": [
+            {
+              "name": "default"
+            }
+          ],
+          "source": {
+            "module": "./src/components/html/MRow.vue",
+            "symbol": "default"
+          }
+        },
+        {
+          "name": "MSeparator",
+          "description": "",
+          "attributes": [
+            {
+              "name": "color",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              },
+              "default": "'#E2E3ED'"
+            },
+            {
+              "name": "size",
+              "value": {
+                "kind": "expression",
+                "type": "number"
+              },
+              "default": "1"
+            },
+            {
+              "name": "padding",
+              "value": {
+                "kind": "expression",
+                "type": "number"
+              },
+              "default": "10"
+            }
+          ],
+          "source": {
+            "module": "./src/components/amp/MSeparator.vue",
+            "symbol": "default"
+          }
+        },
+        {
+          "name": "MSeparator",
+          "description": "",
+          "attributes": [
+            {
+              "name": "color",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              },
+              "default": "'#E2E3ED'"
+            },
+            {
+              "name": "size",
+              "value": {
+                "kind": "expression",
+                "type": "number"
+              },
+              "default": "1"
+            },
+            {
+              "name": "padding",
+              "value": {
+                "kind": "expression",
+                "type": "number"
+              },
+              "default": "10"
+            }
+          ],
+          "source": {
+            "module": "./src/components/html/MSeparator.vue",
+            "symbol": "default"
+          }
+        },
+        {
+          "name": "MStyle",
+          "description": "",
+          "slots": [
+            {
+              "name": "default"
+            }
+          ],
+          "source": {
+            "module": "./src/components/MStyle.vue",
+            "symbol": "default"
+          }
+        },
+        {
+          "name": "MStyle",
+          "description": "",
+          "slots": [
+            {
+              "name": "default"
+            }
+          ],
+          "source": {
+            "module": "./src/components/amp/MStyle.vue",
+            "symbol": "default"
+          }
+        },
+        {
+          "name": "MText",
+          "description": "",
+          "attributes": [
+            {
+              "name": "fontFamily",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              },
+              "default": "''"
+            },
+            {
+              "name": "fontSize",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              },
+              "default": "''"
+            },
+            {
+              "name": "lineHeight",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              },
+              "default": "''"
+            },
+            {
+              "name": "color",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              },
+              "default": "''"
+            },
+            {
+              "name": "bold",
+              "value": {
+                "kind": "expression",
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "textDecoration",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              },
+              "default": "'none'"
+            },
+            {
+              "name": "href",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              }
+            }
+          ],
+          "slots": [
+            {
+              "name": "default"
+            }
+          ],
+          "source": {
+            "module": "./src/components/amp/MText.vue",
+            "symbol": "default"
+          }
+        },
+        {
+          "name": "MText",
+          "description": "",
+          "attributes": [
+            {
+              "name": "fontFamily",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              },
+              "default": "''"
+            },
+            {
+              "name": "fontSize",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              },
+              "default": "''"
+            },
+            {
+              "name": "lineHeight",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              },
+              "default": "''"
+            },
+            {
+              "name": "color",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              },
+              "default": "''"
+            },
+            {
+              "name": "bold",
+              "value": {
+                "kind": "expression",
+                "type": "boolean"
+              }
+            },
+            {
+              "name": "textDecoration",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              },
+              "default": "'none'"
+            },
+            {
+              "name": "href",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              }
+            }
+          ],
+          "slots": [
+            {
+              "name": "default"
+            }
+          ],
+          "source": {
+            "module": "./src/components/html/MText.vue",
+            "symbol": "default"
+          }
+        },
+        {
+          "name": "MWrap",
+          "description": "",
+          "attributes": [
+            {
+              "name": "width",
+              "value": {
+                "kind": "expression",
+                "type": "string|number"
+              },
+              "default": "'100%'"
+            },
+            {
+              "name": "height",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              }
+            },
+            {
+              "name": "outlookWidth",
+              "value": {
+                "kind": "expression",
+                "type": "number"
+              },
+              "default": "0"
+            },
+            {
+              "name": "padding",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              }
+            },
+            {
+              "name": "bgcolor",
+              "required": false,
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              }
+            },
+            {
+              "name": "backgroundImage",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              }
+            },
+            {
+              "name": "outlookBackgroundImage",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              }
+            },
+            {
+              "name": "backgroundPosition",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              }
+            },
+            {
+              "name": "align",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              },
+              "default": "'center'"
+            },
+            {
+              "name": "valign",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              }
+            },
+            {
+              "name": "borderRadius",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              }
+            },
+            {
+              "name": "borderLeft",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              }
+            },
+            {
+              "name": "borderRight",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              }
+            },
+            {
+              "name": "borderTop",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              }
+            },
+            {
+              "name": "borderBottom",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              }
+            },
+            {
+              "name": "border",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              }
+            },
+            {
+              "name": "boxShadow",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              }
+            }
+          ],
+          "slots": [
+            {
+              "name": "default"
+            }
+          ],
+          "source": {
+            "module": "./src/components/amp/MWrap.vue",
+            "symbol": "default"
+          }
+        },
+        {
+          "name": "MWrap",
+          "description": "",
+          "attributes": [
+            {
+              "name": "width",
+              "value": {
+                "kind": "expression",
+                "type": "string|number"
+              },
+              "default": "'100%'"
+            },
+            {
+              "name": "height",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              }
+            },
+            {
+              "name": "outlookWidth",
+              "value": {
+                "kind": "expression",
+                "type": "number"
+              },
+              "default": "0"
+            },
+            {
+              "name": "padding",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              }
+            },
+            {
+              "name": "bgcolor",
+              "required": false,
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              }
+            },
+            {
+              "name": "backgroundImage",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              }
+            },
+            {
+              "name": "outlookBackgroundImage",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              }
+            },
+            {
+              "name": "backgroundPosition",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              }
+            },
+            {
+              "name": "align",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              },
+              "default": "'center'"
+            },
+            {
+              "name": "valign",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              }
+            },
+            {
+              "name": "borderRadius",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              }
+            },
+            {
+              "name": "borderLeft",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              }
+            },
+            {
+              "name": "borderRight",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              }
+            },
+            {
+              "name": "borderTop",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              }
+            },
+            {
+              "name": "borderBottom",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              }
+            },
+            {
+              "name": "border",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              }
+            },
+            {
+              "name": "boxShadow",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              }
+            }
+          ],
+          "slots": [
+            {
+              "name": "default"
+            }
+          ],
+          "source": {
+            "module": "./src/components/html/MWrap.vue",
+            "symbol": "default"
+          }
+        },
+        {
+          "name": "TjUi",
+          "description": "",
+          "attributes": [
+            {
+              "name": "pixelPerfect",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              },
+              "default": "''"
+            },
+            {
+              "name": "type",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              },
+              "default": "''"
+            }
+          ],
+          "source": {
+            "module": "./src/components/TjUi.vue",
+            "symbol": "default"
+          }
+        },
+        {
+          "name": "amp-renderer",
+          "description": "",
+          "source": {
+            "module": "./src/components/AmpRenderer.vue",
+            "symbol": "default"
+          }
+        },
+        {
+          "name": "boxes-inner",
+          "description": "",
+          "attributes": [
+            {
+              "name": "rawWidth",
+              "value": {
+                "kind": "expression",
+                "type": "number"
+              }
+            }
+          ],
+          "slots": [
+            {
+              "name": "default"
+            }
+          ],
+          "source": {
+            "module": "./src/components/html/boxes-inner.vue",
+            "symbol": "default"
+          }
+        },
+        {
+          "name": "html-renderer",
+          "description": "",
+          "source": {
+            "module": "./src/components/HtmlRenderer.vue",
+            "symbol": "default"
+          }
+        },
+        {
+          "name": "m-template",
+          "description": "<p>Tag for using amp-mustache</p>\n<p>The amp-mustache component alone cannot be used in TJML. For it to work correctly, pick the m-template where necessary.</p>\n<p>To insert dynamic elements, use double square brackets <pre> [[]] </pre> instead of curly brackets <pre> {{}} </pre></p>",
+          "slots": [
+            {
+              "name": "default"
+            }
+          ],
+          "source": {
+            "module": "./src/components/amp/MTemplate.vue",
+            "symbol": "default"
+          }
+        }
+      ]
+    }
+  }
+}
