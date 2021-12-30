@@ -19,6 +19,10 @@ It is an email framework that enables quick and convenient creation of cross-pla
 ### TJML
 TJML was build using Vue framework; each tag in it is a Vue component. To create an email, you need to add our JavaScript to your HTML file. Before sending, you should export the rendered HTML or AMP version of the email you created. As you export, each component will be transformed into regular email HTML.
 
+### Autocomplete in JetBrains IDEs
+You can use <a href="https://ampier.io/tjml/web-types.json">web-types</a> in WebStorm and PhpStorm for autocomplete TJML tags and attributes.
+Or use <a href="https://ampier.io/tjml/startpack.zip">start pack</a> for fast dive.
+
 ## Enabling Ampier Framework
 Insert the following JavaScript code immediately after the `<body>` tag:
 ```
