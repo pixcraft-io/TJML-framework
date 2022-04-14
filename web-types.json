@@ -1,7 +1,7 @@
 {
   "framework": "vue",
   "name": "tjemail",
-  "version": "1.2.240",
+  "version": "1.2.281",
   "contributions": {
     "html": {
       "description-markup": "markdown",
@@ -514,6 +514,13 @@
               }
             },
             {
+              "name": "on",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              }
+            },
+            {
               "name": "href",
               "value": {
                 "kind": "expression",
@@ -636,6 +643,13 @@
               }
             },
             {
+              "name": "on",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              }
+            },
+            {
               "name": "href",
               "value": {
                 "kind": "expression",
@@ -649,7 +663,7 @@
                 "kind": "expression",
                 "type": "string"
               },
-              "default": "'58px'"
+              "default": "'58'"
             },
             {
               "name": "width",
@@ -724,7 +738,7 @@
               "name": "delay",
               "value": {
                 "kind": "expression",
-                "type": "number"
+                "type": "string|number"
               }
             }
           ],
@@ -1180,7 +1194,7 @@
             }
           ],
           "source": {
-            "module": "./src/components/amp/MImg.vue",
+            "module": "./src/components/html/MImg.vue",
             "symbol": "default"
           }
         },
@@ -1275,7 +1289,7 @@
             }
           ],
           "source": {
-            "module": "./src/components/html/MImg.vue",
+            "module": "./src/components/amp/MImg.vue",
             "symbol": "default"
           }
         },
@@ -1293,6 +1307,38 @@
             },
             {
               "name": "maxItems",
+              "value": {
+                "kind": "expression",
+                "type": "string|boolean"
+              },
+              "default": "false"
+            },
+            {
+              "name": "template",
+              "value": {
+                "kind": "expression",
+                "type": "string|boolean"
+              },
+              "default": "false"
+            },
+            {
+              "name": "layout",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              },
+              "default": "'fill'"
+            },
+            {
+              "name": "width",
+              "value": {
+                "kind": "expression",
+                "type": "string|boolean"
+              },
+              "default": "false"
+            },
+            {
+              "name": "height",
               "value": {
                 "kind": "expression",
                 "type": "string|boolean"
@@ -1943,6 +1989,14 @@
             },
             {
               "name": "type",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              },
+              "default": "''"
+            },
+            {
+              "name": "theme",
               "value": {
                 "kind": "expression",
                 "type": "string"
