@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru-ru" lang="ru-ru">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE10"/>
+		<title>Simple email on Ampier framework</title>
+		<meta name="viewport" content="width=1000">
+		<style>#app{opacity: 0}</style>
+	</head>
+	<body>
+		<script type="text/javascript">var s=document.createElement("script"),l=document.createElement("link"),d=new Date;s.setAttribute("src","https://ampier.io/tjml/app.js?ver="+d.getTime()),l.setAttribute("type","text/css"),l.setAttribute("rel","stylesheet"),l.setAttribute("href","https://ampier.io/tjml/app.css?ver="+d.getTime()),document.head.appendChild(l),document.body.appendChild(s);</script>
+		<script>
+			// You can use regular JS to use variable in TJML code
+			let props = {
+				textColor: '#323232',
+				bgcolor: '#333743'
+			}
+		</script>
+
+		<div id="app">
+		<tj-ui>
+			<!-- Use vue syntax for attributes with variable -->
+			<m-body :bgcolor="props.bgcolor" :color="props.textColor" font-family="Arial, Helvetica, sans-serif" font-size="14px" line-height="140%">
+				<m-head preheader="preheader" short-preheader></m-head>
+				<m-padding size="10"></m-padding>
+				<m-wrap align="center" width="620" bgcolor="#ffffff" padding="10">
+					<m-padding size="10"></m-padding>
+					<!-- head row -->
+					<m-boxes>
+						<m-box width="220">
+							<m-img src="img/logo.png" alt="logo" width="220" height="60"></m-img>
+						</m-box>
+						<m-box width="165">
+							<m-padding size="10"></m-padding>
+						</m-box>
+						<m-box width="175">
+							<m-padding size="15"></m-padding>
+							<m-text font-size="16px" bold="bold">+1&nbsp;234&nbsp;567&nbsp;89&nbsp;00</m-text>
+						</m-box>
+					</m-boxes>
+					<m-padding size="40"></m-padding>
+					<!-- head row END-->
+
+					<!-- menu line -->
+					<m-boxes>
+						<m-box width="300">
+							<m-row width="100%">
+								<m-column width="50%" align="center" valign="top">
+									<m-text href="#" font-size="14px">
+										Item1
+									</m-text>
+								</m-column>
+								<m-column width="50%" align="center" valign="top">
+									<m-text href="#" font-size="14px">
+										Item2
+									</m-text>
+								</m-column>
+							</m-row>
+							<m-padding size="20"></m-padding>
+						</m-box>
+						<m-box width="300">
+							<m-row width="100%">
+								<m-column width="50%" align="center" valign="top">
+									<m-text href="#" font-size="14px">
+										Item3
+									</m-text>
+								</m-column>
+								<m-column width="50%" align="center" valign="top">
+									<m-text href="#" font-size="14px">
+										Item4
+									</m-text>
+								</m-column>
+							</m-row>
+							<m-padding size="20"></m-padding>
+						</m-box>
+					</m-boxes>
+					<!-- menu line END-->
+
+					<m-padding size="30"></m-padding>
+
+					<!-- creative -->
+					<m-img src="img/creative.png" alt="creative" width="100%"></m-img>
+					<!-- creative END-->
+
+					<m-padding size="40"></m-padding>
+
+					<!-- text block-->
+					<m-wrap align="left" padding="10">
+						<m-text font-size="18px">
+							Hello!
+						</m-text>
+						<m-padding size="15"></m-padding>
+						<m-text font-size="16px">
+							Classical realism, in one way or another, enlightens classical realism. Expressive, in the first approximation, is continuous. Aesthetics represent a destructive narrative framework.
+						</m-text>
+					</m-wrap>
+					<!-- text block END-->
+
+					<m-padding size="40"></m-padding>
+
+					<!-- creative -->
+					<m-img src="img/creative.png" alt="creative" width="100%"></m-img>
+					<!-- creative END-->
+
+					<m-padding size="30"></m-padding>
+
+					<!-- text block-->
+					<m-wrap align="left" padding="10">
+						<m-text font-size="18px" bold="bold" >
+							Header
+						</m-text>
+						<m-padding size="15"></m-padding>
+						<m-text font-size="16px">
+							Classical realism, in one way or another, enlightens classical realism. Expressive, in the first approximation, is continuous. Aesthetics represent a destructive narrative framework.
+						</m-text>
+
+						<m-padding size="40"></m-padding>
+
+						<m-button bold bgcolor="#ffffff" color="#555FB9" border-color="#555FB9">
+							Button
+						</m-button>
+					</m-wrap>
+					<!-- text block END-->
+
+					<m-padding size="60"></m-padding>
+
+					<!-- creative -->
+					<m-img src="img/creative.png" alt="creative" width="100%"></m-img>
+					<!-- creative END-->
+
+					<m-padding size="30"></m-padding>
+
+					<!-- text block-->
+					<m-wrap align="left" padding="10">
+						<m-text font-size="18px" bold="bold">
+							Header
+						</m-text>
+						<m-padding size="15"></m-padding>
+						<m-text font-size="16px">
+							Classical realism, in one way or another, enlightens classical realism. Expressive, in the first approximation, is continuous. Aesthetics represent a destructive narrative framework.
+						</m-text>
+
+						<m-padding size="40"></m-padding>
+
+						<m-button bold bgcolor="#555FB9" color="#ffffff">
+							Button
+						</m-button>
+					</m-wrap>
+					<!-- text block END-->
+
+					<m-padding size="40"></m-padding>
+
+					<m-separator color="#E2E3ED"></m-separator>
+
+					<m-padding size="40"></m-padding>
+
+					<m-boxes valign="middle">
+						<m-box width="300">
+							<m-img src="img/product.png" alt="creative" width="270" height="260"></m-img>
+						</m-box>
+						<m-box width="300">
+							<m-padding size="20"></m-padding>
+							<m-wrap align="left" width="245">
+								<m-text font-size="18px" bold="bold" >
+									Header
+								</m-text>
+								<m-padding size="15"></m-padding>
+								<m-text font-size="16px">
+									Classical realism, in one way or another, enlightens classical realism.
+								</m-text>
+								<m-padding size="15"></m-padding>
+								<m-button bold width="245px" bgcolor="#555FB9" color="#ffffff">
+									Button
+								</m-button>
+							</m-wrap>
+							<m-padding size="20"></m-padding>
+						</m-box>
+					</m-boxes>
+
+					<m-padding size="20"></m-padding>
+
+					<m-boxes valign="middle" direction="inverted">
+						<m-box width="300">
+							<m-img src="img/product.png" alt="creative" width="270" height="260"></m-img>
+						</m-box>
+						<m-box width="300">
+							<m-padding size="20"></m-padding>
+							<m-wrap align="left" width="245">
+								<m-text font-size="18px" bold="bold" >
+									Header
+								</m-text>
+								<m-padding size="15"></m-padding>
+								<m-text font-size="16px">
+									Classical realism, in one way or another, enlightens classical realism.
+								</m-text>
+								<m-padding size="15"></m-padding>
+								<m-button bold width="245px" bgcolor="#ffffff" color="#555FB9" border-color="#555FB9">
+									Button
+								</m-button>
+							</m-wrap>
+							<m-padding size="20"></m-padding>
+						</m-box>
+					</m-boxes>
+
+					<m-padding size="40"></m-padding>
+
+					<m-separator color="#E2E3ED"></m-separator>
+
+					<m-padding size="40"></m-padding>
+
+					<m-text font-size="21px" color="#323232">
+						Header H2
+					</m-text>
+					<m-padding size="20"></m-padding>
+					<m-button bold width="245px" bgcolor="#555FB9" color="#ffffff">
+						Button
+					</m-button>
+
+					<m-padding size="60"></m-padding>
+
+				</m-wrap>
+				<m-wrap align="center" width="620" bgcolor="#f7f7fc" padding="10">
+					<m-wrap align="center" width="560">
+						<m-padding size="20"></m-padding>
+						<m-boxes align="left">
+							<m-box width="350" align="left">
+								<m-img src="img/logo.png" alt="logo" width="220" height="60"></m-img>
+								<m-padding size="20"></m-padding>
+							</m-box>
+							<m-box width="210">
+								<m-padding size="20"></m-padding>
+								<m-row>
+									<m-column align="left" width="61">
+										<m-img href="#" src="img/soc1_1.png" alt="tw" width="26" height="26"></m-img>
+									</m-column>
+									<m-column align="left" width="61">
+										<m-img href="#" src="img/soc3_1.png" alt="fb" width="26" height="26"></m-img>
+									</m-column>
+									<m-column align="left" width="61">
+										<m-img href="#" src="img/soc4_1.png" alt="ins" width="26" height="26"></m-img>
+									</m-column>
+									<m-column align="left">
+										<m-img href="#" src="img/soc5_1.png" alt="ins" width="26" height="26"></m-img>
+									</m-column>
+								</m-row>
+								<m-padding size="20"></m-padding>
+							</m-box>
+						</m-boxes>
+
+						<m-padding size="10"></m-padding>
+
+
+						<m-row width="100%">
+							<m-column align="left">
+								<m-text font-size="12px" color="#8D8F9F">
+									Company Name LLC 2016–2023
+								</m-text>
+							</m-column>
+							<m-column width="80" align="right">
+								<m-text href="#" font-size="12px" color="#555FB9" text-decoration="underline">
+									Unsubscribe
+								</m-text>
+							</m-column>
+						</m-row>
+						<m-padding size="20"></m-padding>
+
+						<m-padding size="10"></m-padding>
+					</m-wrap>
+				</m-wrap>
+
+				<m-wrap width="620" bgcolor="#ffffff" padding="10">
+					<m-padding size="20"></m-padding>
+					<m-wrap align="center" width="500">
+						<m-text font-size="11px" color="#BDBEC8" line-height="14px">
+							According to the theory of "empathy" developed by Theodor Lipps, libido has a synthesis of the arts, which was also substantiated by J. Polti in his book "Thirty-Six Dramatic Situations".
+						</m-text>
+					</m-wrap>
+					<m-padding size="20"></m-padding>
+				</m-wrap>
+
+				<m-padding size="10"></m-padding>
+			</m-body>
+		</tj-ui>
+		</div>
+	</body>
+</html>
