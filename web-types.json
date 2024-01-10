@@ -1,39 +1,15 @@
 {
   "framework": "vue",
   "name": "tjemail",
-  "version": "1.2.281",
+  "version": "1.2.364",
   "contributions": {
     "html": {
       "description-markup": "markdown",
       "types-syntax": "typescript",
       "tags": [
         {
-          "name": "ConditionalComment",
-          "description": "",
-          "attributes": [
-            {
-              "name": "onlyOutlook",
-              "required": false,
-              "value": {
-                "kind": "expression",
-                "type": "boolean"
-              },
-              "default": "false"
-            }
-          ],
-          "slots": [
-            {
-              "name": "default"
-            }
-          ],
-          "source": {
-            "module": "./src/components/html/ConditionalComment.vue",
-            "symbol": "default"
-          }
-        },
-        {
           "name": "MAccordion",
-          "description": "",
+          "description": "AMP Accordion. Allows you to create \"accordions\" in emails",
           "attributes": [
             {
               "name": "animate",
@@ -61,21 +37,8 @@
           }
         },
         {
-          "name": "MAccordion",
-          "description": "",
-          "slots": [
-            {
-              "name": "default"
-            }
-          ],
-          "source": {
-            "module": "./src/components/html/MAccordion.vue",
-            "symbol": "default"
-          }
-        },
-        {
           "name": "MAccordionBody",
-          "description": "",
+          "description": "AMP Body of an Accordion Section. Allows you to create the body of a section in an \"accordion.\"",
           "slots": [
             {
               "name": "default"
@@ -87,21 +50,8 @@
           }
         },
         {
-          "name": "MAccordionBody",
-          "description": "",
-          "slots": [
-            {
-              "name": "default"
-            }
-          ],
-          "source": {
-            "module": "./src/components/html/MAccordionBody.vue",
-            "symbol": "default"
-          }
-        },
-        {
           "name": "MAccordionSection",
-          "description": "",
+          "description": "AMP Section of an Accordion. Allows you to create a section in an \"accordion.\"",
           "attributes": [
             {
               "name": "expanded",
@@ -122,21 +72,8 @@
           }
         },
         {
-          "name": "MAccordionSection",
-          "description": "",
-          "slots": [
-            {
-              "name": "default"
-            }
-          ],
-          "source": {
-            "module": "./src/components/html/MAccordionSection.vue",
-            "symbol": "default"
-          }
-        },
-        {
           "name": "MAccordionTitle",
-          "description": "",
+          "description": "AMP Title of an Accordion Section. Allows you to create a clickable section heading in the \"accordion\" that expands or collapses the content of the section",
           "slots": [
             {
               "name": "default"
@@ -148,7 +85,7 @@
           }
         },
         {
-          "name": "MAccordionTitle",
+          "name": "MAsset",
           "description": "",
           "slots": [
             {
@@ -156,68 +93,26 @@
             }
           ],
           "source": {
-            "module": "./src/components/html/MAccordionTitle.vue",
+            "module": "./src/components/editor/MAsset.vue",
             "symbol": "default"
           }
         },
         {
-          "name": "MBody",
+          "name": "MAssets",
           "description": "",
-          "attributes": [
-            {
-              "name": "fontFamily",
-              "value": {
-                "kind": "expression",
-                "type": "string"
-              },
-              "default": "'Verdana, Arial, Helvetica, sans-serif'"
-            },
-            {
-              "name": "fontSize",
-              "value": {
-                "kind": "expression",
-                "type": "string"
-              },
-              "default": "'14px'"
-            },
-            {
-              "name": "lineHeight",
-              "value": {
-                "kind": "expression",
-                "type": "string"
-              },
-              "default": "'normal'"
-            },
-            {
-              "name": "color",
-              "value": {
-                "kind": "expression",
-                "type": "string"
-              },
-              "default": "'#000000'"
-            },
-            {
-              "name": "bgcolor",
-              "value": {
-                "kind": "expression",
-                "type": "string"
-              },
-              "default": "'#ffffff'"
-            }
-          ],
           "slots": [
             {
               "name": "default"
             }
           ],
           "source": {
-            "module": "./src/components/amp/MBody.vue",
+            "module": "./src/components/MAsset.vue",
             "symbol": "default"
           }
         },
         {
           "name": "MBody",
-          "description": "",
+          "description": "The overall wrapping of the entire email. The tag is required and can be used in the email only once.",
           "attributes": [
             {
               "name": "fontFamily",
@@ -272,46 +167,7 @@
         },
         {
           "name": "MBox",
-          "description": "",
-          "attributes": [
-            {
-              "name": "align",
-              "value": {
-                "kind": "expression",
-                "type": "string"
-              },
-              "default": "'center'"
-            },
-            {
-              "name": "valign",
-              "value": {
-                "kind": "expression",
-                "type": "string"
-              },
-              "default": "'top'"
-            },
-            {
-              "name": "width",
-              "value": {
-                "kind": "expression",
-                "type": "string"
-              },
-              "default": "'300'"
-            }
-          ],
-          "slots": [
-            {
-              "name": "default"
-            }
-          ],
-          "source": {
-            "module": "./src/components/amp/MBox.vue",
-            "symbol": "default"
-          }
-        },
-        {
-          "name": "MBox",
-          "description": "",
+          "description": "Stacking blocks. Can only be used inside m-boxes",
           "attributes": [
             {
               "name": "align",
@@ -390,59 +246,13 @@
             }
           ],
           "source": {
-            "module": "./src/components/amp/MBoxes.vue",
-            "symbol": "default"
-          }
-        },
-        {
-          "name": "MBoxes",
-          "description": "",
-          "attributes": [
-            {
-              "name": "align",
-              "value": {
-                "kind": "expression",
-                "type": "string"
-              },
-              "default": "'center'"
-            },
-            {
-              "name": "valign",
-              "value": {
-                "kind": "expression",
-                "type": "string"
-              },
-              "default": "'top'"
-            },
-            {
-              "name": "inverted",
-              "value": {
-                "kind": "expression",
-                "type": "boolean"
-              }
-            },
-            {
-              "name": "direction",
-              "value": {
-                "kind": "expression",
-                "type": "string|boolean"
-              },
-              "default": "false"
-            }
-          ],
-          "slots": [
-            {
-              "name": "default"
-            }
-          ],
-          "source": {
             "module": "./src/components/html/MBoxes.vue",
             "symbol": "default"
           }
         },
         {
           "name": "MButton",
-          "description": "",
+          "description": "Button",
           "attributes": [
             {
               "name": "fontFamily",
@@ -514,129 +324,21 @@
               }
             },
             {
-              "name": "on",
+              "name": "borderWidth",
               "value": {
                 "kind": "expression",
                 "type": "string"
               }
             },
             {
-              "name": "href",
-              "value": {
-                "kind": "expression",
-                "type": "string"
-              },
-              "default": "'#'"
-            },
-            {
-              "name": "height",
-              "value": {
-                "kind": "expression",
-                "type": "string"
-              },
-              "default": "'58px'"
-            },
-            {
-              "name": "width",
-              "value": {
-                "kind": "expression",
-                "type": "string"
-              },
-              "default": "'100%'"
-            },
-            {
-              "name": "name",
+              "name": "borderStyle",
               "value": {
                 "kind": "expression",
                 "type": "string"
               }
             },
             {
-              "name": "value",
-              "value": {
-                "kind": "expression",
-                "type": "string"
-              }
-            }
-          ],
-          "slots": [
-            {
-              "name": "default"
-            }
-          ],
-          "source": {
-            "module": "./src/components/amp/MButton.vue",
-            "symbol": "default"
-          }
-        },
-        {
-          "name": "MButton",
-          "description": "",
-          "attributes": [
-            {
-              "name": "fontFamily",
-              "value": {
-                "kind": "expression",
-                "type": "string"
-              },
-              "default": "''"
-            },
-            {
-              "name": "fontSize",
-              "value": {
-                "kind": "expression",
-                "type": "string"
-              },
-              "default": "''"
-            },
-            {
-              "name": "lineHeight",
-              "value": {
-                "kind": "expression",
-                "type": "string"
-              },
-              "default": "''"
-            },
-            {
-              "name": "color",
-              "value": {
-                "kind": "expression",
-                "type": "string"
-              },
-              "default": "'#ffffff'"
-            },
-            {
-              "name": "bold",
-              "value": {
-                "kind": "expression",
-                "type": "boolean"
-              },
-              "default": "false"
-            },
-            {
-              "name": "bgcolor",
-              "value": {
-                "kind": "expression",
-                "type": "string"
-              }
-            },
-            {
-              "name": "background",
-              "value": {
-                "kind": "expression",
-                "type": "string"
-              },
-              "default": "''"
-            },
-            {
-              "name": "borderRadius",
-              "value": {
-                "kind": "expression",
-                "type": "string"
-              }
-            },
-            {
-              "name": "borderColor",
+              "name": "border",
               "value": {
                 "kind": "expression",
                 "type": "string"
@@ -686,7 +388,7 @@
         },
         {
           "name": "MCarousel",
-          "description": "",
+          "description": "AMP Carousel. Allows you to create carousels of images and content inside the email",
           "attributes": [
             {
               "name": "width",
@@ -753,122 +455,8 @@
           }
         },
         {
-          "name": "MCarousel",
-          "description": "",
-          "slots": [
-            {
-              "name": "default"
-            }
-          ],
-          "source": {
-            "module": "./src/components/html/MCarousel.vue",
-            "symbol": "default"
-          }
-        },
-        {
           "name": "MColumn",
-          "description": "",
-          "attributes": [
-            {
-              "name": "align",
-              "value": {
-                "kind": "expression",
-                "type": "string"
-              },
-              "default": "'center'"
-            },
-            {
-              "name": "valign",
-              "value": {
-                "kind": "expression",
-                "type": "string"
-              },
-              "default": "'top'"
-            },
-            {
-              "name": "bgcolor",
-              "value": {
-                "kind": "expression",
-                "type": "string"
-              }
-            },
-            {
-              "name": "width",
-              "value": {
-                "kind": "expression",
-                "type": "string"
-              }
-            },
-            {
-              "name": "height",
-              "value": {
-                "kind": "expression",
-                "type": "string"
-              }
-            },
-            {
-              "name": "borderRadius",
-              "value": {
-                "kind": "expression",
-                "type": "string"
-              }
-            },
-            {
-              "name": "borderLeft",
-              "value": {
-                "kind": "expression",
-                "type": "string"
-              }
-            },
-            {
-              "name": "borderRight",
-              "value": {
-                "kind": "expression",
-                "type": "string"
-              }
-            },
-            {
-              "name": "borderTop",
-              "value": {
-                "kind": "expression",
-                "type": "string"
-              }
-            },
-            {
-              "name": "borderBottom",
-              "value": {
-                "kind": "expression",
-                "type": "string"
-              }
-            },
-            {
-              "name": "border",
-              "value": {
-                "kind": "expression",
-                "type": "string"
-              }
-            },
-            {
-              "name": "padding",
-              "value": {
-                "kind": "expression",
-                "type": "string"
-              }
-            }
-          ],
-          "slots": [
-            {
-              "name": "default"
-            }
-          ],
-          "source": {
-            "module": "./src/components/amp/MColumn.vue",
-            "symbol": "default"
-          }
-        },
-        {
-          "name": "MColumn",
-          "description": "",
+          "description": "Non-stacking block. (similar to a table cell). Can only be used inside an m-row element",
           "attributes": [
             {
               "name": "align",
@@ -969,7 +557,7 @@
         },
         {
           "name": "MForm",
-          "description": "",
+          "description": "AMP form. Allows you to create forms in an email\n When saving an email in Ampier, the action attribute will be generated and substituted automatically\n <p>When using various fields (input, select, textarea), you can assign special attributes to them. These will help while saving the code in Ampier</p>\n <p>- The data-title attribute allows you to set the Title of the field (used when displaying data)  </p>\n <p>- Setting the value of the data-required attribute to ‘1’ will allow you to specify that the field is required.  </p>\n <p>Use data-amp-attributes for apply amp-bind states, E.g.: <pre>data-amp-hidden=\"mystate == 1\"</pre></p>",
           "attributes": [
             {
               "name": "action",
@@ -977,7 +565,7 @@
                 "kind": "expression",
                 "type": "string"
               },
-              "default": "'https://amp4email.ru/amp/post/120?key=817b5e2c9131f7e4b164ab55f86bd883&format=json'"
+              "default": "'https://ampier.io/amp/post/120?key=817b5e2c9131f7e4b164ab55f86bd883&format=json'"
             },
             {
               "name": "on",
@@ -995,14 +583,6 @@
           ],
           "source": {
             "module": "./src/components/amp/MForm.vue",
-            "symbol": "default"
-          }
-        },
-        {
-          "name": "MForm",
-          "description": "",
-          "source": {
-            "module": "./src/components/html/MForm.vue",
             "symbol": "default"
           }
         },
@@ -1034,7 +614,7 @@
         },
         {
           "name": "MHead",
-          "description": "",
+          "description": "Specifies the preheader parameters. Can contain a style tag with the description of styles.",
           "attributes": [
             {
               "name": "preheader",
@@ -1066,230 +646,108 @@
             }
           ],
           "source": {
-            "module": "./src/components/MHead.vue",
+            "module": "./src/components/html/MHead.vue",
             "symbol": "default"
           }
         },
         {
-          "name": "MHead",
-          "description": "",
+          "name": "MImg",
+          "description": "Adds an image.",
           "attributes": [
             {
-              "name": "preheader",
-              "required": false,
+              "name": "fontFamily",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              },
+              "default": "''"
+            },
+            {
+              "name": "fontSize",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              },
+              "default": "''"
+            },
+            {
+              "name": "lineHeight",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              },
+              "default": "''"
+            },
+            {
+              "name": "color",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              },
+              "default": "''"
+            },
+            {
+              "name": "href",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              },
+              "default": "''"
+            },
+            {
+              "name": "src",
+              "required": true,
               "value": {
                 "kind": "expression",
                 "type": "string"
               }
             },
             {
-              "name": "shortPreheader",
+              "name": "inline",
               "value": {
                 "kind": "expression",
                 "type": "boolean"
               }
+            },
+            {
+              "name": "width",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              }
+            },
+            {
+              "name": "height",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              }
+            },
+            {
+              "name": "borderRadius",
+              "value": {
+                "kind": "expression",
+                "type": "any"
+              }
+            },
+            {
+              "name": "alt",
+              "value": {
+                "kind": "expression",
+                "type": "string"
+              },
+              "default": "''"
             },
             {
               "name": "title",
               "value": {
                 "kind": "expression",
                 "type": "string"
-              },
-              "default": "' - '"
-            }
-          ],
-          "source": {
-            "module": "./src/components/amp/MHead.vue",
-            "symbol": "default"
-          }
-        },
-        {
-          "name": "MImg",
-          "description": "",
-          "attributes": [
-            {
-              "name": "fontFamily",
-              "value": {
-                "kind": "expression",
-                "type": "string"
-              },
-              "default": "''"
-            },
-            {
-              "name": "fontSize",
-              "value": {
-                "kind": "expression",
-                "type": "string"
-              },
-              "default": "''"
-            },
-            {
-              "name": "lineHeight",
-              "value": {
-                "kind": "expression",
-                "type": "string"
-              },
-              "default": "''"
-            },
-            {
-              "name": "color",
-              "value": {
-                "kind": "expression",
-                "type": "string"
-              },
-              "default": "''"
-            },
-            {
-              "name": "href",
-              "value": {
-                "kind": "expression",
-                "type": "string"
-              },
-              "default": "''"
-            },
-            {
-              "name": "src",
-              "required": true,
-              "value": {
-                "kind": "expression",
-                "type": "string"
               }
-            },
-            {
-              "name": "inline",
-              "value": {
-                "kind": "expression",
-                "type": "boolean"
-              }
-            },
-            {
-              "name": "width",
-              "required": true,
-              "value": {
-                "kind": "expression",
-                "type": "string"
-              }
-            },
-            {
-              "name": "height",
-              "value": {
-                "kind": "expression",
-                "type": "string"
-              }
-            },
-            {
-              "name": "borderRadius",
-              "value": {
-                "kind": "expression",
-                "type": "any"
-              }
-            },
-            {
-              "name": "alt",
-              "value": {
-                "kind": "expression",
-                "type": "string"
-              },
-              "default": "''"
             }
           ],
           "source": {
             "module": "./src/components/html/MImg.vue",
-            "symbol": "default"
-          }
-        },
-        {
-          "name": "MImg",
-          "description": "",
-          "attributes": [
-            {
-              "name": "fontFamily",
-              "value": {
-                "kind": "expression",
-                "type": "string"
-              },
-              "default": "''"
-            },
-            {
-              "name": "fontSize",
-              "value": {
-                "kind": "expression",
-                "type": "string"
-              },
-              "default": "''"
-            },
-            {
-              "name": "lineHeight",
-              "value": {
-                "kind": "expression",
-                "type": "string"
-              },
-              "default": "''"
-            },
-            {
-              "name": "color",
-              "value": {
-                "kind": "expression",
-                "type": "string"
-              },
-              "default": "''"
-            },
-            {
-              "name": "href",
-              "value": {
-                "kind": "expression",
-                "type": "string"
-              },
-              "default": "''"
-            },
-            {
-              "name": "src",
-              "required": true,
-              "value": {
-                "kind": "expression",
-                "type": "string"
-              }
-            },
-            {
-              "name": "inline",
-              "value": {
-                "kind": "expression",
-                "type": "boolean"
-              }
-            },
-            {
-              "name": "width",
-              "required": true,
-              "value": {
-                "kind": "expression",
-                "type": "string"
-              }
-            },
-            {
-              "name": "height",
-              "value": {
-                "kind": "expression",
-                "type": "string"
-              }
-            },
-            {
-              "name": "borderRadius",
-              "value": {
-                "kind": "expression",
-                "type": "any"
-              }
-            },
-            {
-              "name": "alt",
-              "value": {
-                "kind": "expression",
-                "type": "string"
-              },
-              "default": "''"
-            }
-          ],
-          "source": {
-            "module": "./src/components/amp/MImg.vue",
             "symbol": "default"
           }
         },
@@ -1357,57 +815,8 @@
           }
         },
         {
-          "name": "MList",
-          "description": "",
-          "attributes": [
-            {
-              "name": "src",
-              "value": {
-                "kind": "expression",
-                "type": "string"
-              },
-              "default": "''"
-            },
-            {
-              "name": "maxItems",
-              "value": {
-                "kind": "expression",
-                "type": "string|boolean"
-              },
-              "default": "false"
-            }
-          ],
-          "slots": [
-            {
-              "name": "default"
-            }
-          ],
-          "source": {
-            "module": "./src/components/html/MList.vue",
-            "symbol": "default"
-          }
-        },
-        {
           "name": "MPadding",
-          "description": "",
-          "attributes": [
-            {
-              "name": "size",
-              "value": {
-                "kind": "expression",
-                "type": "string|number"
-              },
-              "default": "10"
-            }
-          ],
-          "source": {
-            "module": "./src/components/amp/MPadding.vue",
-            "symbol": "default"
-          }
-        },
-        {
-          "name": "MPadding",
-          "description": "",
+          "description": "Creates a vertical indent",
           "attributes": [
             {
               "name": "size",
@@ -1425,29 +834,7 @@
         },
         {
           "name": "MRow",
-          "description": "",
-          "attributes": [
-            {
-              "name": "width",
-              "value": {
-                "kind": "expression",
-                "type": "string"
-              }
-            }
-          ],
-          "slots": [
-            {
-              "name": "default"
-            }
-          ],
-          "source": {
-            "module": "./src/components/amp/MRow.vue",
-            "symbol": "default"
-          }
-        },
-        {
-          "name": "MRow",
-          "description": "",
+          "description": "Wraps non-stacking blocks (similar to a table row). Can only contain m-column elements",
           "attributes": [
             {
               "name": "width",
@@ -1469,41 +856,7 @@
         },
         {
           "name": "MSeparator",
-          "description": "",
-          "attributes": [
-            {
-              "name": "color",
-              "value": {
-                "kind": "expression",
-                "type": "string"
-              },
-              "default": "'#E2E3ED'"
-            },
-            {
-              "name": "size",
-              "value": {
-                "kind": "expression",
-                "type": "number"
-              },
-              "default": "1"
-            },
-            {
-              "name": "padding",
-              "value": {
-                "kind": "expression",
-                "type": "number"
-              },
-              "default": "10"
-            }
-          ],
-          "source": {
-            "module": "./src/components/amp/MSeparator.vue",
-            "symbol": "default"
-          }
-        },
-        {
-          "name": "MSeparator",
-          "description": "",
+          "description": "Separator (a horizontal line)",
           "attributes": [
             {
               "name": "color",
@@ -1537,102 +890,20 @@
         },
         {
           "name": "MStyle",
-          "description": "",
+          "description": "Hosts your own styles, similar to the style tag. Must be nested within an m-head.",
           "slots": [
             {
               "name": "default"
             }
           ],
           "source": {
-            "module": "./src/components/MStyle.vue",
-            "symbol": "default"
-          }
-        },
-        {
-          "name": "MStyle",
-          "description": "",
-          "slots": [
-            {
-              "name": "default"
-            }
-          ],
-          "source": {
-            "module": "./src/components/amp/MStyle.vue",
+            "module": "./src/components/html/MStyle.vue",
             "symbol": "default"
           }
         },
         {
           "name": "MText",
-          "description": "",
-          "attributes": [
-            {
-              "name": "fontFamily",
-              "value": {
-                "kind": "expression",
-                "type": "string"
-              },
-              "default": "''"
-            },
-            {
-              "name": "fontSize",
-              "value": {
-                "kind": "expression",
-                "type": "string"
-              },
-              "default": "''"
-            },
-            {
-              "name": "lineHeight",
-              "value": {
-                "kind": "expression",
-                "type": "string"
-              },
-              "default": "''"
-            },
-            {
-              "name": "color",
-              "value": {
-                "kind": "expression",
-                "type": "string"
-              },
-              "default": "''"
-            },
-            {
-              "name": "bold",
-              "value": {
-                "kind": "expression",
-                "type": "boolean"
-              }
-            },
-            {
-              "name": "textDecoration",
-              "value": {
-                "kind": "expression",
-                "type": "string"
-              },
-              "default": "'none'"
-            },
-            {
-              "name": "href",
-              "value": {
-                "kind": "expression",
-                "type": "string"
-              }
-            }
-          ],
-          "slots": [
-            {
-              "name": "default"
-            }
-          ],
-          "source": {
-            "module": "./src/components/amp/MText.vue",
-            "symbol": "default"
-          }
-        },
-        {
-          "name": "MText",
-          "description": "",
+          "description": "Adds text or link. Can contain regular html tags, e.g., &lt;a&gt;, &lt;b&gt;, etc.",
           "attributes": [
             {
               "name": "fontFamily",
@@ -1833,160 +1104,14 @@
             }
           ],
           "source": {
-            "module": "./src/components/amp/MWrap.vue",
-            "symbol": "default"
-          }
-        },
-        {
-          "name": "MWrap",
-          "description": "",
-          "attributes": [
-            {
-              "name": "width",
-              "value": {
-                "kind": "expression",
-                "type": "string|number"
-              },
-              "default": "'100%'"
-            },
-            {
-              "name": "height",
-              "value": {
-                "kind": "expression",
-                "type": "string"
-              }
-            },
-            {
-              "name": "outlookWidth",
-              "value": {
-                "kind": "expression",
-                "type": "number"
-              },
-              "default": "0"
-            },
-            {
-              "name": "padding",
-              "value": {
-                "kind": "expression",
-                "type": "string"
-              }
-            },
-            {
-              "name": "bgcolor",
-              "required": false,
-              "value": {
-                "kind": "expression",
-                "type": "string"
-              }
-            },
-            {
-              "name": "backgroundImage",
-              "value": {
-                "kind": "expression",
-                "type": "string"
-              }
-            },
-            {
-              "name": "outlookBackgroundImage",
-              "value": {
-                "kind": "expression",
-                "type": "string"
-              }
-            },
-            {
-              "name": "backgroundPosition",
-              "value": {
-                "kind": "expression",
-                "type": "string"
-              }
-            },
-            {
-              "name": "align",
-              "value": {
-                "kind": "expression",
-                "type": "string"
-              },
-              "default": "'center'"
-            },
-            {
-              "name": "valign",
-              "value": {
-                "kind": "expression",
-                "type": "string"
-              }
-            },
-            {
-              "name": "borderRadius",
-              "value": {
-                "kind": "expression",
-                "type": "string"
-              }
-            },
-            {
-              "name": "borderLeft",
-              "value": {
-                "kind": "expression",
-                "type": "string"
-              }
-            },
-            {
-              "name": "borderRight",
-              "value": {
-                "kind": "expression",
-                "type": "string"
-              }
-            },
-            {
-              "name": "borderTop",
-              "value": {
-                "kind": "expression",
-                "type": "string"
-              }
-            },
-            {
-              "name": "borderBottom",
-              "value": {
-                "kind": "expression",
-                "type": "string"
-              }
-            },
-            {
-              "name": "border",
-              "value": {
-                "kind": "expression",
-                "type": "string"
-              }
-            },
-            {
-              "name": "boxShadow",
-              "value": {
-                "kind": "expression",
-                "type": "string"
-              }
-            }
-          ],
-          "slots": [
-            {
-              "name": "default"
-            }
-          ],
-          "source": {
             "module": "./src/components/html/MWrap.vue",
             "symbol": "default"
           }
         },
         {
           "name": "TjUi",
-          "description": "",
+          "description": "The tag is required and contains only an m-body. Forms the framework interface",
           "attributes": [
-            {
-              "name": "pixelPerfect",
-              "value": {
-                "kind": "expression",
-                "type": "string"
-              },
-              "default": "''"
-            },
             {
               "name": "type",
               "value": {
@@ -1996,60 +1121,61 @@
               "default": "''"
             },
             {
-              "name": "theme",
+              "name": "ampSupport",
+              "value": {
+                "kind": "expression",
+                "type": "boolean"
+              },
+              "default": "true"
+            },
+            {
+              "name": "localBuilder",
+              "value": {
+                "kind": "expression",
+                "type": "boolean"
+              },
+              "default": "false"
+            },
+            {
+              "name": "jsonTemplate",
               "value": {
                 "kind": "expression",
                 "type": "string"
               },
               "default": "''"
-            }
-          ],
-          "source": {
-            "module": "./src/components/TjUi.vue",
-            "symbol": "default"
-          }
-        },
-        {
-          "name": "amp-renderer",
-          "description": "",
-          "source": {
-            "module": "./src/components/AmpRenderer.vue",
-            "symbol": "default"
-          }
-        },
-        {
-          "name": "boxes-inner",
-          "description": "",
-          "attributes": [
+            },
             {
-              "name": "rawWidth",
+              "name": "ui",
               "value": {
                 "kind": "expression",
-                "type": "number"
+                "type": "object"
+              },
+              "default": "{}"
+            },
+            {
+              "name": "assets",
+              "value": {
+                "kind": "expression",
+                "type": "object"
+              },
+              "default": "{}"
+            },
+            {
+              "name": "getAuthToken",
+              "value": {
+                "kind": "expression",
+                "type": "func"
               }
             }
           ],
-          "slots": [
-            {
-              "name": "default"
-            }
-          ],
           "source": {
-            "module": "./src/components/html/boxes-inner.vue",
+            "module": "./src/components/EditorUi.vue",
             "symbol": "default"
           }
         },
         {
-          "name": "html-renderer",
-          "description": "",
-          "source": {
-            "module": "./src/components/HtmlRenderer.vue",
-            "symbol": "default"
-          }
-        },
-        {
-          "name": "m-template",
-          "description": "<p>Tag for using amp-mustache</p>\n<p>The amp-mustache component alone cannot be used in TJML. For it to work correctly, pick the m-template where necessary.</p>\n<p>To insert dynamic elements, use double square brackets <pre> [[]] </pre> instead of curly brackets <pre> {{}} </pre></p>",
+          "name": "MTemplate",
+          "description": "Tag for using amp-mustache\nThe amp-mustache component alone cannot be used in TJML. For it to work correctly, pick the m-template where necessary.\nTo insert dynamic elements, use double square brackets <pre> [[]] </pre> instead of curly brackets <pre> {{}} </pre>",
           "slots": [
             {
               "name": "default"
