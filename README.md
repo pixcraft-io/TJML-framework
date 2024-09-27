@@ -29,7 +29,7 @@ TJML was build using Vue framework; each tag in it is a Vue component. To create
 Insert the following JavaScript code immediately after the `<body>` tag:
 ```
 <script type="text/javascript">
-var s=document.createElement("script"),l=document.createElement("link"),d=new Date;s.setAttribute("src","https://ampier.io/tjml/app.js?ver="+d.getTime()),l.setAttribute("type","text/css"),l.setAttribute("rel","stylesheet"),l.setAttribute("href","https://ampier.io/tjml/app.css?ver="+d.getTime()),document.head.appendChild(l),document.body.appendChild(s); 
+var s=document.createElement("script"),l=document.createElement("link"),d=new Date;s.setAttribute("src","https://app.pixcraft.io/tjml/app.js?ver="+d.getTime()),l.setAttribute("type","text/css"),l.setAttribute("rel","stylesheet"),l.setAttribute("href","https://app.pixcraft.io/tjml/app.css?ver="+d.getTime()),document.head.appendChild(l),document.body.appendChild(s); 
 </script>
 ```
 
@@ -45,4 +45,4 @@ Please note that regular email HTML code will not allow for the creation of an A
 </tjml>
 ```
 ## Tags and Attributes
-You can find detailed information about all the available tags (components) and attributes in the <a href="https://docs.ampier.io/framework/">Ampier docs</a> and <a href="https://github.com/ampier-io/ampier-framework/wiki">wiki</a>. 
+You can find detailed information about all the available tags (components) and attributes in the <a href="https://docs.pixcraft.io/framework/">TJML docs</a> and <a href="https://github.com/pixcraft-io/TJML-framework/wiki">wiki</a>. 
