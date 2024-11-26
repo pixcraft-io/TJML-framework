@@ -1,7 +1,7 @@
 # TJML email framework
 It is an email framework that enables quick and convenient creation of cross-platform AMP and HTML emails with the help of TJML — an xml-like markup language.
 
-### Email Coding Optimization with TJML
+## Why TJML framework?
 * automated HTML and AMP email creation from TJML code,
 * 50% faster HTML coding, as compared to regular email HTML coding,
 * looser skill requirements for frontend developers and HTML coders,
@@ -25,7 +25,7 @@ TJML was build using Vue framework; each tag in it is a Vue component. To create
 | JetBrains IDEs (WebStorm, PhpStorm) | You can use <a href="https://app.pixcraft.io/tjml/web-types.json">web-types</a> for autocomplete TJML tags and attributes. Or use <a href="https://app.pixcraft.io/tjml/startpack.zip">start pack</a> for fast dive. |
 | Visual Studio Code | [Install plugin from Marketplace](https://marketplace.visualstudio.com/items?itemName=Pixcraft.vscode-tjml) or [github](https://github.com/pixcraft-io/vscode-tjml)                                                  |
 
-## Enabling Ampier Framework
+## Getting started
 Insert the following JavaScript code immediately after the `<body>` tag:
 ```
 <script type="text/javascript">
