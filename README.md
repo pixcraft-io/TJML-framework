@@ -1,20 +1,22 @@
 # TJML email framework
 It is an email framework that enables quick and convenient creation of cross-platform AMP and HTML emails with the help of TJML — an xml-like markup language.
 
+[Documentation](https://docs.pixcraft.io/en/tjml/)
+
 ## Why TJML framework?
-* automated HTML and AMP email creation from TJML code,
-* 50% faster HTML coding, as compared to regular email HTML coding,
-* looser skill requirements for frontend developers and HTML coders,
-* emails that respond correctly and immediately to screen size change, **including the cases when media queries are not used**,
-* emails that are displayed properly in Microsoft Outlook (2003-2020), as well as in outdated email clients, such as Lotus mail.
+* HTML and AMP versions of the email are automatically generated from TJML code
+* Layout development is, on average, twice as fast compared to traditional manual methods;
+* Lowers the entry barrier to email development: no need to learn all the quirks of coding for Outlook, mobile email clients, etc. The framework ensures proper rendering in most email clients—both legacy and modern
+* Emails adapt correctly to mobile devices, even those without media query support
+* Emails render properly in both modern email clients and outdated ones like Microsoft Outlook (2003–2020) and Lotus Mail.
  
 ### Additional Tools Available in the TJML framework Interface
-* dark mode check,
-* code compression,
-* responsive design preview,
-* pixelPerfect tool,
-* rendered HTML file size calculation,
-* single-click screenshot of the designed email.
+* Dark mode display check
+* Code minification
+* Mobile view preview
+* Pixel Perfect tool
+* HTML file size calculation and warnings if it exceeds recommended limits
+* One-click email screenshot generation
 
 ### TJML
 TJML was build using Vue framework; each tag in it is a Vue component. To create an email, you need to add our JavaScript to your HTML file. Before sending, you should export the rendered HTML or AMP version of the email you created. As you export, each component will be transformed into regular email HTML.
