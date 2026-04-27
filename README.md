@@ -18,6 +18,9 @@ It is an email framework that enables quick and convenient creation of cross-pla
 * HTML file size calculation and warnings if it exceeds recommended limits
 * One-click email screenshot generation
 
+### Try TJML with AI
+[Available in ChatGPT](https://chatgpt.com/g/g-6823ad1f3c208191b9ce2d58bf3bb724-tjml)
+
 ### TJML
 TJML was build using Vue framework; each tag in it is a Vue component. To create an email, you need to add our JavaScript to your HTML file. Before sending, you should export the rendered HTML or AMP version of the email you created. As you export, each component will be transformed into regular email HTML.
 
