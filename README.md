@@ -50,4 +50,4 @@ Please note that regular email HTML code will not allow for the creation of an A
 </tjml>
 ```
 ## Tags and Attributes
-You can find detailed information about all the available tags (components) and attributes in the <a href="https://docs.pixcraft.io/framework/">TJML docs</a> and <a href="https://github.com/pixcraft-io/TJML-framework/wiki">wiki</a>. 
+You can find detailed information about all the available tags (components) and attributes in the <a href="https://docs.pixcraft.io/en/tjml/">TJML docs</a> and <a href="https://github.com/pixcraft-io/TJML-framework/wiki">wiki</a>. 

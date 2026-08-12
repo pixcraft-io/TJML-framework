@@ -8,29 +8,21 @@
 	</head>
 	<body>
 		<script type="text/javascript">var s=document.createElement("script"),l=document.createElement("link"),d=new Date;s.setAttribute("src","https://app.pixcraft.io/tjml/app.js?ver="+d.getTime()),l.setAttribute("type","text/css"),l.setAttribute("rel","stylesheet"),l.setAttribute("href","https://app.pixcraft.io/tjml/app.css?ver="+d.getTime()),document.head.appendChild(l),document.body.appendChild(s);</script>
-		<script>
-			// You can use regular JS to use variable in TJML code
-			let props = {
-				textColor: '#323232',
-				bgcolor: '#333743'
-			}
-		</script>
 		<tjml>
-			<!-- Use vue syntax for attributes with variable -->
-			<m-body :bgcolor="props.bgcolor" :color="props.textColor" font-family="Arial, Helvetica, sans-serif" font-size="14px" line-height="140%">
+			<m-body bgcolor="#333743" color="#323232" font-family="Arial, Helvetica, sans-serif" font-size="14px" line-height="140%">
 				<m-head preheader="preheader" short-preheader></m-head>
 				<m-padding size="10"></m-padding>
 				<m-wrap align="center" width="620" bgcolor="#ffffff" padding="10">
 					<m-padding size="10"></m-padding>
 					<!-- head row -->
 					<m-boxes>
-						<m-box width="220">
+						<m-box width="220" class="mob_100">
 							<m-img src="img/logo.png" alt="logo" width="220" height="60"></m-img>
 						</m-box>
-						<m-box width="165">
+						<m-box width="165" class="mob_100">
 							<m-padding size="10"></m-padding>
 						</m-box>
-						<m-box width="175">
+						<m-box width="175" class="mob_100">
 							<m-padding size="15"></m-padding>
 							<m-text font-size="16px" bold="bold">+1&nbsp;234&nbsp;567&nbsp;89&nbsp;00</m-text>
 						</m-box>
